@@ -7,7 +7,7 @@ import time
 import tarfile
 import zipfile
 
-from lib.cuckooapi.cuckooapi import CuckooAPI
+from pycuckoo.cuckooapi import CuckooAPI
 
 
 class CuckooUtils():
