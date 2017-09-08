@@ -39,7 +39,7 @@ class CuckooUtils():
                 last_status = status
             if status == 'error':
                 return False
-            if status == 'failed':
+            if status == 'failed_analysis':
                 return False
             if status == 'stopped':
                 return False
