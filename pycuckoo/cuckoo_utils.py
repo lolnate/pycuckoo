@@ -39,6 +39,10 @@ class CuckooUtils():
                 last_status = status
             if status == 'error':
                 return False
+            if status == 'failed':
+                return False
+            if status == 'stopped':
+                return False
             if status != 'reported':
                 time.sleep(2)
         return True
